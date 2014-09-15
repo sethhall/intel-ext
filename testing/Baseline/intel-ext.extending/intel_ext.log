@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	intel_ext
+#open	2014-09-15-20-44-27
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	seen.indicator	seen.indicator_type	seen.where	sources	descriptions
+#types	time	string	addr	port	addr	port	string	string	string	string	enum	enum	set[string]	set[string]
+1362692526.939527	CJn0vk3eTTTxWvvr71	141.142.228.5	59856	192.150.187.43	80	-	-	-	bro.org	Intel::DOMAIN	HTTP::IN_HOST_HEADER	source1	This is a description
+#close	2014-09-15-20-44-27

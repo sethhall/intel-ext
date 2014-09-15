@@ -1,0 +1,2 @@
+#fields	indicator	indicator_type	meta.source	meta.whitelist
+bro.org	Intel::DOMAIN	my_whitelist	T
