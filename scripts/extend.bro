@@ -16,8 +16,8 @@ event Intel::match(s: Intel::Seen, items: set[Intel::Item]) &priority=5
 		if ( ! info?$fuid )
 			info$fuid = s$f$id;
 
-		if ( ! info?$file_mime_type && s$f?$mime_type )
-			info$file_mime_type = s$f$mime_type;
+		if ( ! info?$file_mime_type && s$f$info?$mime_type )
+			info$file_mime_type = s$f$info$mime_type;
 
 		if ( ! info?$file_desc )
 			info$file_desc = Files::describe(s$f);
