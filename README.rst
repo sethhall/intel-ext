@@ -1,7 +1,7 @@
-Bro Intel Framework Extensions (Bro v2.3)
+Bro Intel Framework Extensions (Bro v2.4)
 =========================================
 
-These are some extensions for Bro 2.3's Intel framework.
+These are some extensions for Bro 2.4's Intel framework.
 
   - The ability to extend the Intel log with the 
     Intel::extend_match event.  This also disables the
